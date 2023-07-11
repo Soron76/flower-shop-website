@@ -20,7 +20,7 @@ body {
 
 .banner {
     margin: 0px 50px;
-    padding: 10px 40px;
+    padding: 20px 40px 0px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,11 +64,19 @@ body {
     padding: 20px 40px;
 }
 
+/*main sectio releted */
+
+
 /*description section */
 
 .des {
-    margin: 150px 350px;
+    margin: 120px 300px;
     text-align: center;
+
+}
+
+.des-h {
+    margin-bottom: 15px;
 
 }
 
@@ -81,29 +89,56 @@ body {
     align-items: center;
 }
 
-/*main sectio releted */
-main {
-    max-width: 1140px;
-}
 
 .feature {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    margin: 0px 150px;
+    gap: 15px;
+
+
 }
 
 .feature-img {
     width: 30%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: #A7216226;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+}
+
+.feature-img1 {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0597A026;
     text-align: center;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
+.image{
+    margin-bottom: 0px;
+}
+.feature-img2 {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #477D1126;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
 
 .feature-img img {
     height: 80%;
@@ -112,9 +147,9 @@ main {
 /*icon releted*/
 
 .container {
-    width: 1140px;
-    height: 320px;
-    margin-top: 80px;
+
+    height: 270px;
+    margin: 80px 200px 0px 150px;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -125,7 +160,12 @@ main {
 
 .icon {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.images {
+    margin-bottom: 10px;
 }
 
 /*hot deal*/
@@ -133,6 +173,9 @@ main {
     height: 620px;
     margin-top: 100px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
@@ -144,11 +187,45 @@ main {
     font-weight: 800;
 }
 
+.hot_h1 {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
 .span {
     color: #E55473;
 }
 
 .hot-p {
+    width: 550px;
+    height: 60px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+/* new arrival releted styles*/
+.new-arrival {
+    align-items: center;
+    margin-bottom: 260px;
+
+
+}
+
+.new-h {
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.new-p {
+   
+    align-items: center;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -156,27 +233,116 @@ main {
     line-height: 30px;
 }
 
+.new-flo {
+    margin: 0px 100px 100px 125px;
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+
+
+}
+
+/*instagram releted syles*/
+
 .insta {
-    margin: 150px 350px;
-    text-align: center;
+    align-items: center;
+    margin-bottom: 260px;
+
+
 }
 
 .insta-h1 {
-   /* font-size: 20px;*/
+
+    text-align: center;
+    font-size: 40px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .insta-p {
+   
+    align-items: center;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.insta-flo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
 
+.insta-flo {
+    margin: 0px 100px 100px 125px;
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+
+
+}
+
+/*backgound image releted styles*/
+.bg-imag {
+    background-image: url(../images/Rectangle\ 9.png);
+    height: 449px;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0px 100px 100px 125px;
+
+}
+
+.bg-h {
+    padding: 70px 230px 0px 230px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.bg-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+input {
+    margin-right: 15px 220px;
+    padding: 22px 100px 22px 20px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
+
+
+footer {
+    background: #111010;
+    padding: 130px 380px 230px 350px;
+    background-size: 100%;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.ft-span {
+    color: white;
+}
+
+.foot-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+h5 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
 }
