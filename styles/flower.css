@@ -82,7 +82,9 @@ body {
 }
 
 /*main sectio releted */
-
+main {
+    max-width: 1140px;
+}
 
 .feature {
     display: flex;
@@ -120,7 +122,61 @@ body {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
-.icon{
+
+.icon {
     text-align: center;
     padding: 5px;
+}
+
+/*hot deal*/
+.hot {
+    height: 620px;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.hot-deal {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.span {
+    color: #E55473;
+}
+
+.hot-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.insta {
+    margin: 150px 350px;
+    text-align: center;
+}
+
+.insta-h1 {
+   /* font-size: 20px;*/
+    font-weight: 800;
+}
+
+.insta-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.insta-flo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
 }
