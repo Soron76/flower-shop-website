@@ -66,11 +66,10 @@ body {
 
 /*description section */
 
-.des{
+.des {
     margin: 150px 350px;
-}
-.des-h{
     text-align: center;
+
 }
 
 .des-pera {
@@ -81,3 +80,27 @@ body {
     line-height: 30px;
     align-items: center;
 }
+
+/*main sectio releted */
+
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .feature-img{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+    border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  }
+  .feature-img img{
+    height: 80%;
+  }
