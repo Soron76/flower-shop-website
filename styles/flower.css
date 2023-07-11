@@ -84,13 +84,14 @@ body {
 /*main sectio releted */
 
 
-.feature{
+.feature {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  .feature-img{
+}
+
+.feature-img {
     width: 30%;
     height: 400px;
     display: flex;
@@ -99,8 +100,27 @@ body {
     background-color: red;
     text-align: center;
     border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  }
-  .feature-img img{
-    height: 80%;
-  }
+    border-top-right-radius: 50%;
+}
+
+.feature-img img {
+    height: 80%;
+}
+
+/*icon releted*/
+
+.container {
+    width: 1140px;
+    height: 320px;
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.icon{
+    text-align: center;
+    padding: 5px;
+}
